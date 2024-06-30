@@ -1,0 +1,83 @@
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="button"] {
+  background-color: #1a351b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+form a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 20px 20px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .login-button {
+    background-color: #4CAF50;
+    color: white;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    padding: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 40px 20px 20px 0;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 20px;
+  }
+}
